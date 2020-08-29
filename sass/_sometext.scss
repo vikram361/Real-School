@@ -1,6 +1,11 @@
 .text-section {
   padding: 10rem;
 
+  @media only screen and (max-width: $bp-small) {
+    padding: 3rem;
+    
+  }
+
   &-bar {
     background: #a0e467 0% 0% no-repeat padding-box;
     border-radius: 6px;

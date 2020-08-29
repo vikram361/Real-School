@@ -1,5 +1,9 @@
 .class-attend {
   padding: 10rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 3rem;
+  }
 }
 
 .book-class {
@@ -7,6 +11,15 @@
   justify-content: space-between;
   align-items: center;
   width: 80vw;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    overflow: scroll;
+    
+  }
 
   &-item {
     flex: 0 0 23%;
@@ -16,6 +29,12 @@
     min-height: 20rem;
     padding: 5rem 2rem;
     text-align: center;
+
+    @media only screen and (max-width: $bp-small) {
+      flex: 0 0 40%;
+      margin-right: 3rem;
+      
+    }
 
     & .fa-play-circle{
         font-size: 3rem;

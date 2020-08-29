@@ -1,6 +1,10 @@
 .goal {
   padding: 10rem;
 
+  @media only screen and (max-width: $bp-small) {
+    padding: 3rem;
+  }
+
   &-heading {
     width: 100%;
 
@@ -23,11 +27,23 @@
     justify-content: space-between;
     align-items: flex-end;
 
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      overflow: scroll;
+    }
+
     & .grid-1,
     & .grid-2,
     & .grid-3,
     & .grid-4 {
       flex: 0 0 20%;
+      @media only screen and (max-width: $bp-small) {
+        flex: 0 0 45%;
+        margin-right: 1rem;
+      }
 
       & .grid-1-bar,
       & .grid-2-bar {
@@ -47,8 +63,8 @@
         background: #8ae241 0% 0% no-repeat padding-box;
       }
 
-      & .grid-3-bar{
-        background: #AF70FC 0% 0% no-repeat padding-box;
+      & .grid-3-bar {
+        background: #af70fc 0% 0% no-repeat padding-box;
       }
 
       & .grid-background {
@@ -69,20 +85,20 @@
           align-items: center;
           border-radius: 50%;
           background: #ffe30d 0% 0% no-repeat padding-box;
-          color: #8A7A00;
+          color: #8a7a00;
           margin-right: 1.5rem;
         }
 
-        &-text{
-            color: #262525;
-            font-size: 1.3rem;
-            font-weight: 600;
+        &-text {
+          color: #262525;
+          font-size: 1.3rem;
+          font-weight: 600;
         }
       }
     }
   }
 
-  &-grid-2{
-      margin-top: 2rem;
+  &-grid-2 {
+    margin-top: 2rem;
   }
 }
