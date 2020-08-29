@@ -23,6 +23,7 @@
   @media only screen and (max-width: 56.25em) {
     .assignments {
       width: 80%;
+      padding-bottom: 2rem;
       overflow: scroll; } }
   @media only screen and (max-width: 37.5em) {
     .assignments {
@@ -101,7 +102,9 @@ body {
     display: none; }
   @media only screen and (max-width: 37.5em) {
     .book-class {
-      overflow: scroll; } }
+      overflow: scroll;
+      width: 100vw;
+      padding-bottom: 2rem; } }
   .book-class-item {
     flex: 0 0 23%;
     background: #f6feff 0% 0% no-repeat padding-box;
