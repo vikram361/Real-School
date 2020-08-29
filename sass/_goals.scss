@@ -1,0 +1,88 @@
+.goal {
+  padding: 10rem;
+
+  &-heading {
+    width: 100%;
+
+    &-bar {
+      background: #a0e467 0% 0% no-repeat padding-box;
+      border-radius: 6px;
+      width: 3.2rem;
+      height: 6px;
+    }
+
+    &-text {
+      padding: 1.5rem 0;
+      font-size: 2rem;
+      color: #333333;
+    }
+  }
+
+  &-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    & .grid-1,
+    & .grid-2,
+    & .grid-3,
+    & .grid-4 {
+      flex: 0 0 20%;
+
+      & .grid-1-bar,
+      & .grid-2-bar {
+        background: #6188ea 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 0px #0000001a;
+        width: 8rem;
+        text-align: center;
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+      }
+
+      & .grid-2-bar {
+        background: #8ae241 0% 0% no-repeat padding-box;
+      }
+
+      & .grid-3-bar{
+        background: #AF70FC 0% 0% no-repeat padding-box;
+      }
+
+      & .grid-background {
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 1px 1px 0px #0000001a;
+        border: 1px solid #cbd8db;
+        border-radius: 30px;
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+
+        & .grid-points {
+          font-size: 1rem;
+          width: 4rem;
+          height: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          background: #ffe30d 0% 0% no-repeat padding-box;
+          color: #8A7A00;
+          margin-right: 1.5rem;
+        }
+
+        &-text{
+            color: #262525;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+      }
+    }
+  }
+
+  &-grid-2{
+      margin-top: 2rem;
+  }
+}

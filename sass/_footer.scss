@@ -1,0 +1,90 @@
+.footer {
+  padding: 10rem 10rem 3rem 10rem;
+  background-color: #635d5d;
+
+  &-btn {
+    margin: 0 auto;
+    text-align: center;
+    background: #ff3a58 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 0px #0000001a;
+    border: 1px solid #ff3a58;
+    border-radius: 5px;
+    width: 20rem;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    margin-bottom: 5rem;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &-logo {
+      flex: 0 0 30%;
+
+      &-heading {
+        font-size: 3rem;
+        color: #fff;
+      }
+
+      & p {
+        color: #ffffff;
+        font-size: 1.2rem;
+        padding-bottom: 2rem;
+      }
+
+      &-contact {
+        display: flex;
+        flex-direction: column;
+
+        & i {
+          margin: 1rem 0;
+          font-size: 1.5rem;
+          line-height: 1.5;
+          color: #fff;
+          font-weight: 300;
+        }
+      }
+    }
+
+    &-quick-links {
+      flex: 0 0 30%;
+      display: flex;
+      justify-content: space-between;
+
+      & .item-1,
+      & .item-2 {
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 300;
+
+        & h3,
+        p {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+
+  &-social-icons {
+    flex: 0 0 20%;
+
+    & i {
+      font-size: 1.5rem;
+      color: #fff;
+      padding: 2rem 0;
+      margin: 0 2rem;
+    }
+  }
+}
+
+.copyright {
+  text-align: center;
+  background: #5a5555 0% 0% no-repeat padding-box;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+}

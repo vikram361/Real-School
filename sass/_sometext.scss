@@ -1,0 +1,25 @@
+.text-section {
+  padding: 10rem;
+
+  &-bar {
+    background: #a0e467 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    width: 3.2rem;
+    height: 6px;
+  }
+
+  &-heading {
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+  }
+
+  &-para{
+      width: 80%;
+      font-size: 1.3rem;
+      word-spacing: 5px;
+      line-height: 1.5;
+      color: #5A5959;
+  }
+}

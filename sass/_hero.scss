@@ -1,0 +1,221 @@
+.hero-section {
+  padding: 10rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-grey-light);
+}
+
+.hero {
+  flex: 0 0 55%;
+
+  &-first-content {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-grey-dark);
+    padding-bottom: 2rem;
+  }
+
+  &-heading {
+    font-size: 3rem;
+    color: #333333;
+    font-weight: 500;
+    padding-bottom: 2rem;
+  }
+
+  &-para {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+  }
+
+  &-image {
+    width: 100%;
+    height: 42rem;
+    background-image: url(/img/hero-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &-head {
+      color: #fff;
+      font-size: 2rem;
+      text-align: right;
+      padding: 1rem 2rem;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    & .watch-btn {
+      position: absolute;
+      bottom: 2rem;
+      left: 3rem;
+      display: flex;
+      padding: 1rem 3rem;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 1px 1px 0px #00000029;
+      border-radius: 5px;
+
+      & .fa-play {
+        padding-right: 1rem;
+      }
+    }
+  }
+
+  &-description {
+    flex: 0 0 35%;
+    padding-top: 5rem;
+
+    &-like {
+      width: 13rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: auto;
+      background: #fdffd3 0% 0% no-repeat padding-box;
+      box-shadow: 1px 1px 0px #00000029;
+      border: 1px solid #333333;
+      border-radius: 5px;
+      padding: 5px 15px;
+
+      & .fa-thumbs-up {
+        font-size: 2.2rem;
+        padding-right: 1rem;
+      }
+
+      & .number-text {
+        & .number {
+          font-weight: 600;
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    &-content {
+      padding-top: 5.5rem;
+
+      & .live-on {
+        font-size: 15px;
+        color: #a9b7b9;
+        padding-bottom: 2rem;
+      }
+
+      & .date-time {
+        & span {
+          font-size: 3rem;
+          color: #333333;
+          font-weight: 600;
+        }
+        font-size: 2.5rem;
+      }
+
+      & .slot-title {
+        color: #a9b7b9;
+        font-size: 15px;
+        padding-bottom: 2rem;
+      }
+
+      & .slot-time {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+
+        & .time-1,
+        & .time-2,
+        & .time-3 {
+          &-text {
+            padding: 5px 10px;
+            background: #ffffff 0% 0% no-repeat padding-box;
+            border: 1px solid #707070;
+            border-radius: 20px;
+            font-size: 1.7rem;
+          }
+
+          & .seats {
+            font-size: 1.5rem;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 2rem;
+          }
+        }
+      }
+
+      & .fee {
+        font-size: 1.5rem;
+        color: #a9b7b9;
+      }
+
+      & .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        padding: 1rem 0;
+
+        &-btn {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          box-shadow: 2px 2px 0px #0000001a;
+          border-radius: 5px;
+          padding: 1rem 2rem;
+
+          &-text {
+            font-size: 1.5rem;
+            font-weight: 600;
+
+            & span {
+              text-decoration: line-through;
+              color: #6997a1;
+              padding-right: 10px;
+            }
+          }
+        }
+
+        & .points {
+          font-size: 1.5rem;
+          font-weight: 600;
+          text-decoration: underline;
+          color: #ff3a58;
+        }
+      }
+    }
+
+    &-cta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2rem;
+
+      & .cta-btn {
+        background: #ff3a58 0% 0% no-repeat padding-box;
+        box-shadow: 2px 2px 0px #0000001a;
+        border: 1px solid #ff3a58;
+        border-radius: 5px;
+        padding: 1rem 9rem;
+
+        &-text {
+          color: #fff;
+          font-size: 1.3rem;
+          font-weight: 600;
+          letter-spacing: 1px;
+        }
+      }
+
+      & .share-btn {
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 2px 2px 0px #0000001a;
+        border: 1px solid #ff3a58;
+        border-radius: 5px;
+        padding: 1rem;
+
+        &-text {
+          color: #ff3a58;
+        }
+      }
+    }
+  }
+}

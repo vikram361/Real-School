@@ -1,0 +1,37 @@
+.class-attend {
+  padding: 10rem;
+}
+
+.book-class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+
+  &-item {
+    flex: 0 0 23%;
+    background: #f6feff 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 0px #0000001a;
+    border-radius: 5px;
+    min-height: 20rem;
+    padding: 5rem 2rem;
+    text-align: center;
+
+    & .fa-play-circle{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    &-heading{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #333333;
+        padding-bottom: 2rem;
+    }
+
+    &-para{
+        width: 80%;
+        margin: 0 auto;
+    }
+  }
+}
